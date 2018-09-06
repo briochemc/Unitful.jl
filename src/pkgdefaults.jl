@@ -90,7 +90,7 @@ Unitful.offsettemp(::Unitful.Unit{:Celsius}) = 27315//100
 # Common units of time
 @unit minute "minute"   Minute                60s           false
 @unit hr     "hr"       Hour                  3600s         false
-@unit d      "dy"       Day                   86400s        false
+@unit d      "d"        Day                   86400s        false
 @unit wk     "wk"       Week                  604800s       false
 @unit rps    "rps"      RevolutionsPerSecond  1/s           false
 @unit rpm    "rpm"      RevolutionsPerMinute  1/minute      false
